@@ -1,0 +1,173 @@
+React (https://github.com/facebook/react/issues),,,,,,,
+id,title,link,Labels,closed,OB,EB,S2R
+#19371,Setup CI infra to run DevTools tests against multiple React versions,https://github.com/facebook/react/issues/19371,"Component: Build Infrastructure, Component: Developer Tools, good first issue",,x,x,x
+#11949,Output JUnit XML test metadata for CircleCI,https://github.com/facebook/react/issues/11949,"Component:Build infrastructure, difficulty: medium, good first issue, partner",,x,,x
+#12615,Unexpected warning when hydrating with portal and SSR,https://github.com/facebook/react/issues/12615,"difficulty:medium, type:bug, good first issue ",,x,x,x
+#11734,"value|defaultValue={Symbol|Function} should be ignored, not stringified",https://github.com/facebook/react/issues/11734,"Component: DOM, type:bug, good first issue, React Core Team",,x,,
+#3701,Replace invariant better in prod,https://github.com/facebook/react/issues/3701,"Component: Build Infrastructure, difficulty:starter",x,x,x,x
+#20756,Bug: using MessageChannel prevents node.js process from exiting,https://github.com/facebook/react/issues/20756,"Component: Scheduler, good first issue",x,x,x,x
+#20075,Bug: Error loading source maps for devtools extension,https://github.com/facebook/react/issues/20075,"Component: Developer Tools, Type: Bug, good first issue",x,x,x,x
+#19402,"Bug: React Hook ""useContext"" is called in function ""login"" which is neither a React function component or a custom React Hook function react-hooks/rules-of-hooks",https://github.com/facebook/react/issues/19402,"Component: ESLint Rules, Difficulty: starter, Type: Bug, good first issue",x,x,x,x
+#11768,Error Rendering Inputs in Separate Window using Portals,https://github.com/facebook/react/issues/11768,"Browser: IE, Component: DOM, Difficulty: medium, Type: Needs Investigation, good first issue",x,x,x,x
+#11806,Remove selectionStart polyfill?,https://github.com/facebook/react/issues/11806,"Browser: IE, Component: DOM, Difficulty: medium, Type: Needs Investigation, good first issue",x,x,x,x
+#14362,react-hooks linter fails with unusual for loop,https://github.com/facebook/react/issues/14362,"Difficulty: challenging, Type: Bug, good first issue ",x,x,x,x
+#11544,Ignore system directories in the build script,https://github.com/facebook/react/issues/11544,"Component: Build Infrastructure, good first issue, difficulty:starter",x,x,,
+#20997,Bug: Can't build react-devtools-extensions,https://github.com/facebook/react/issues/20997,"Component: Build Infrastructure, Component: Developer Tools, Status: Unconfirmed, good first issue",x,x,,x
+#19362,Scheduler callback is only checked for null value and therefore throws when callback is undefined.,https://github.com/facebook/react/issues/19362,"Component: Scheduler, Difficulty: starter, good first issue",x,x,,
+#19338,"Bug: react-devtools error when KEY and CERT are provided, SSL not usable",https://github.com/facebook/react/issues/19338,"Component: Developer Tools, Type: Bug, good first issue",x,x,,x
+#16413,Dev tools does not respect zoom level on firefox OSX,https://github.com/facebook/react/issues/16413,"Component: Developer Tools, Type: Bug, good first issue",x,x,,x
+,,,,,,,
+Flutter (https://github.com/flutter/flutter),,,,,,,
+id,title,link,Labels,closed,OB,EB,S2R
+#81500,Make Tab bar height customizable,https://github.com/flutter/flutter/issues/81500,"a: quality, f: material design, framework, passed first triage, proposal
+",,x,x,x
+#78362,Error when building Flutter engine SDK with bitcode enabled (for iOS),https://github.com/flutter/flutter/issues/78362,"P4, dependency: darteasy, fixenginefound in release: 2.1, has reproducible steps, platform-ios",,x,,x
+#77438,Enable cascade_invocations lint,https://github.com/flutter/flutter/issues/77438,"easy fix, framework, passed first triage, team",,x,,x
+#76486,ThemeData default typography is created using material design's 2014 defaults instead of 2018.,https://github.com/flutter/flutter/issues/76486,"a: quality, easy fix, f: material design, found in release: 1.27, framework, has reproducible steps
+",,x,,
+#70619,Text Selection not working in Webview when showing in pageview,https://github.com/flutter/flutter/issues/70619,"easy fix, found in release: 1.22, has reproducible steps, p: first party, p:webview, plugin",,x,,x
+#65630,[google_maps_flutter] [ios] Unpin GoogleMaps cocoapod.,https://github.com/flutter/flutter/issues/63530,"easy fix, p: first party, p: mapspassed,  first triage, platform-ios, plugin, team",,x,x,x
+#54784,Can't handle width inside an appBar of a Scaffold,https://github.com/flutter/flutter/issues/54784,"documentation, easy fix, f: material design, framework, passed first triage",,x,x,x
+#65914,[image_picker ]The minimal code sample could be improved to handle when no image is picked,https://github.com/flutter/flutter/issues/65914,"d: examples. documentation, easy fix. good first contribution, p: first party, p: image_picker, passed first triage, plugin",x,x,x,x
+#76361,[google_maps_flutter_web] UnimplementedError: updateTileOverlays() has not been implemented.,https://github.com/flutter/flutter/issues/76361,"P4, found in release: 1.27, good first contribution, has reproducible steps, p: first party, p: maps, platform-web, plugin, r: fixed, severe: crash",x,x,x,x
+#59308,[web] image_picker_for_web - keep file extension,https://github.com/flutter/flutter/issues/59308,"found in release: 1.20, good first contribution, has reproducible steps, p: first party, p: image_picker, platform-web, plugin",x,x,x,x
+#51461,Flutter web: url_launcher Plugin show blank page on dismiss,https://github.com/flutter/flutter/issues/51461,"good first contribution, p: url_launcher, platform-web, plugin",x,x,x,x
+#16730,Verbose mode options to tooling should pass the --verbose-logging flag to the engine.,https://github.com/flutter/flutter/issues/16730,"P4, easy fix, good first contribution, severe: new feature, tool",x,x,x,x
+#79646,[documentation] Install dependencies from the flutter cli,https://github.com/flutter/flutter/issues/79646,"d: website - content, documentation, easy fix, good first contribution, passed first, triager: fixed, tool",x,x,,x
+#66492,"Performance tweak of ScrollBar, there is one only one AnimationController, use SingleTickerProviderStateMixin instread of TickerProviderStateMixin",https://github.com/flutter/flutter/issues/66492,"easy fix, f: material design, f: scrolling, found in release: 1.22, framework, good first contribution, has reproducible steps, severe:performance
+",x,x,,x
+#55653,[Linux Desktop] Platform exception when click on TextField,https://github.com/flutter/flutter/issues/55653,"a: desktop, e: glfw, engine, good first contribution, platform-linux",x,x,,x
+#46918,Clicks not registered with webkit2gtk on Linux,https://github.com/flutter/flutter/issues/46918,"e: device-specific, f: gestures, good first contribution, platform-web, waiting for customer response",x,x,,x
+#30478,Flutter tool should release cache lock when killed by a signal.,https://github.com/flutter/flutter/issues/30478,"P5, a: annoyance, a: china, customer: countless, good first contribution, severe: new feature, tool",x,x,,x
+,,,,,,,
+Nodejs(https://github.com/nodejs),,,,,,,
+id,title,link,Labels,closed,OB,EB,S2R
+#38499,worker_threads.moveMessagePortToContext results in an abort,https://github.com/nodejs/node/issues/38499,"c++, confirmed-bug, good first issue, worker",,x,x,x
+#36674,stream: pipeline should error if any stream is destroyed,https://github.com/nodejs/node/issues/36674,"good first issue, stream ",,x,x,
+#37995,"""fs.chownSync"" results in an abort",https://github.com/nodejs/node/issues/37995,"confirmed-bug, fs, good first issue
+",x,x,x,x
+#17709,Tracking issue: Migrate errors to internal/errors.js,https://github.com/nodejs/node/issues/17709,"errors, good first issue, lib / src",x,x,x,x
+#38499,worker_threads.moveMessagePortToContext results in an abort,https://github.com/nodejs/node/issues/38499,"c++, confirmed-bug, good first issue, worker",x,x,x,x
+#35288,Feature request: ChildProcess 'spawn' event,https://github.com/nodejs/node/issues/35288,"child_process, feature request, good first issue",x,x,x,x
+#32250,Worker Threads: Add transferList to Worker constructor options,https://github.com/nodejs/node/issues/32250,"feature request, good first issue, worker",x,x,x,x
+#34736,url.pathToFileURL doesn't generate valid URLs for UNC paths,https://github.com/nodejs/node/issues/34736,"confirmed-bug, good first issue, url, whatwg-url",x,x,x,
+#33348,fs readdir with buffer and file types problem,https://github.com/nodejs/node/issues/33348,"confirmed-bug, fs, good first issue",x,x,x,
+#30090,Doctool may swallow errors due to unhandled async functions,https://github.com/nodejs/node/issues/30090,"good first issue, tools",x,x,,x
+#29113,Cannot read property 'bigint' of undefined,https://github.com/nodejs/node/issues/29113,"fs, good first issue",x,x,,
+#28675,add note in BUILDING.md about running make distclean,https://github.com/nodejs/node/issues/28675,"doc, good first issue, help wanted",x,x,,x
+#26546,lib: reduce internal usage of public require('util'),https://github.com/nodejs/node/issues/26546,"good first issue, help wanted, util",x,x,,
+#26077,Bug: 'Eterm' → 'eterm' in getColorDepth,https://github.com/nodejs/node/issues/26077,"good first issue, tty",x,x,x,
+#23491,Node core building instructions in one place,https://github.com/nodejs/node/issues/23491,good first issue,x,x,,x
+,,,,,,,
+,,,,,,,
+Vuejs(https://github.com/vuejs/vue),,,,,,,
+id,title,link,Labels,closed,OB,EB,S2R
+#10152,Scoped Slot warns when used inside of dynamic component on regular element,https://github.com/vuejs/vue/issues/10152,"bug, contribution welcome, good first issue, has PR, warnings",x,x,x,x
+#9114,Incorrect compiled code when usinig multiline v-if on template element as a slot renderer,https://github.com/vuejs/vue/issues/9114,"good first issue, has workaround, improvement",x,x,x,x
+#8634,"Vue DevTools recommendation only shows for Chrome, not Firefox",https://github.com/vuejs/vue/issues/8634,"good first issue, has PR, improvement",x,x,x,x
+#5605,"Warn when component option should be an object, but is a function",https://github.com/vuejs/vue/issues/5605,"contribution welcome, good first issue",x,x,x,x
+#5603,optionMergeStrategies.inject,https://github.com/vuejs/vue/issues/5603,"contribution welcome, good first issue, improvement",x,x,x,x
+#7711,HTML Keyboard Input element (<kbd>) is not supported,https://github.com/vuejs/vue/issues/7711,"good first issue, improvement",x,x,x,x
+#6361,"<input :is=""textarea""> broken",https://github.com/vuejs/vue/issues/6361,"contribution welcome, good first issue, regression",x,x,x,x
+#8017,2.5.14 introduces TypeError bind is not a function,https://github.com/vuejs/vue/issues/8017,"contribution welcome, feature request, good first issue, has PR",x,x,x,x
+#7764,Make the warning messages more explicit,https://github.com/vuejs/vue/issues/7764,"feature request, good first issue, has PR",x,x,x,
+#9734,"Add path to resolved vue package to vue-template-compiler's ""version mismatch"" error",https://github.com/vuejs/vue/issues/9734,"contribution welcome, good first issue, has PR, warnings",x,x,,x
+#10871,VNodeDirective expression Typing,https://github.com/vuejs/vue/issues/10871,"contribution welcome, has PR, typescript",x,x,,x
+#7479,Template renderer and CSP,https://github.com/vuejs/vue/issues/7479,"contribution welcome, feature request, has PR, improvement, intend to implement",x,x,,x
+#3323,Interpolation fails on inline string containing HTML,https://github.com/vuejs/vue/issues/3323,"bug, contribution welcome",x,,x,x
+,,,,,,,
+Babel(https://github.com/babel),,,,,,,
+id,title,link,Labels,closed,OB,EB,S2R
+#12673,Get operation on private accessor without getter should throw,https://github.com/babel/babel/issues/12673,"Spec: Class Fields, good first issue, i: bug, outdated",x,x,x,x
+#12137,Use native ESM for dev scripts,https://github.com/babel/babel/issues/12137,"claimed, good first issue, i: enhancement, outdated",x,x,x,x
+#11646,Babel should transform class private properties mixed with logical assignment operators,https://github.com/babel/babel/issues/11646,"Spec: Class Fields, Spec: Logical Assignment, good first issue, i: bug, outdated",x,x,x,x
+#11187,Forced calls of OptionalCalls do not print correctly,https://github.com/babel/babel/issues/11187,"Has PR, Spec: Optional Chaining, claimed, good first issue, i: bug, outdated, pkg: generator",x,x,x,x
+#10921,Add numeric separator to shippedProposals in preset-env,https://github.com/babel/babel/issues/10921,"Has PR, claimed, good first issue, i: enhancement, outdated",x,x,x,x
+#10805,Optional delete must return true when base is nullish,https://github.com/babel/babel/issues/10805,"Spec: Optional Chaining, claimed, good first issue, i: bug, outdated",x,x,x,x
+#10802,Optional Chaining does not propagate receiver when parenthesized,https://github.com/babel/babel/issues/10802,"Has PR, Spec: Optional Chaining, claimed, good first issue, i: bug, outdated",x,x,x,x
+#10785,String valued enums differ from tsc,https://github.com/babel/babel/issues/10785,"area: typescript, good first issue, i: bug, outdated",x,,x,x
+#10769,Trailing comma in typescript spread,https://github.com/babel/babel/issues/10769,"area: typescript, good first issue, i: bug, outdated, pkg: parser",x,x,,
+#10673,Optional chaining on super.method() breaks,https://github.com/babel/babel/issues/10673,"Has PR, Spec: Optional Chaining, claimed, good first issue, i: bug, outdated",x,x,x,
+#4148,What should the issue/PR templates be?,https://github.com/babel/babel/issues/4148,"good first issue, help wanted, i: discussion, outdated",x,,x,x
+#4097,export-import uses Object.defineProperty even when es6.modules is in loose mode (T7116),https://github.com/babel/babel/issues/4097,"area: modules, claimed, good first issue, outdated",x,x,x,
+,,,,,,,
+Ember(https://github.com/emberjs/ember.js),,,,,,,
+id,title,link,Labels,closed,OB,EB,S2R
+#11898,Deprecate and remove function argument in Ember.assert/deprecate/etc,https://github.com/emberjs/ember.js/issues/11898,Good for New Contributors,x,x,x,x
+#10823,Aliases are not enumerated in eachComputedProperty,https://github.com/emberjs/ember.js/issues/10823,"Bug, Good for New Contributors",x,x,x,x
+#10800,Scheduling a method that is undefined should throw,https://github.com/emberjs/ember.js/issues/10800,Good for New Contributors,x,x,x,x
+#11835,Update Ember.deprecate and Ember.warn calls to include required options.,https://github.com/emberjs/ember.js/issues/11835,Good for New Contributors,x,x,x,x
+#11898,Deprecate and remove function argument in Ember.assert/deprecate/etc,https://github.com/emberjs/ember.js/issues/11898,Good for New Contributors,x,x,x,x
+#17018,Cannot pass hash helper to link-to (EmptyObject lacking hasOwnProperty),https://github.com/emberjs/ember.js/issues/17018,"Bug, Good for New Contributors",x,x,,x
+#15056,queryParams not working if the locationType is set to hash,https://github.com/emberjs/ember.js/issues/15056,"Good for New Contributors, Has Reproduction, Inactive, Needs Submitter Response, Query Params",x,x,,x
+#13176,Confusing error when using Ember.computed.or incorrectly,https://github.com/emberjs/ember.js/issues/13176,"Bug, Documentation, Good for New Contributors, Has Reproduction",x,x,,x
+#9352,bower vs package.json,https://github.com/emberjs/ember.js/issues/9352,"Bug, Good for New Contributors, Needs Label Review",x,x,x,
+#19134,App booted before DOM ready without jQuery,https://github.com/emberjs/ember.js/issues/19134,"Bug, Good for New Contributors, Help Wanted",x,x,x,
+#4921,"Ember.Array methods don't return an Ember.Array, causing chaining to throw when EmberENV.EXTEND_PROTOTYPES is false.",https://github.com/emberjs/ember.js/issues/4921,"Bug, Good for New Contributors",x,x,,x
+#4275,Remove the implicit error/loading routes from the list of routes in link-to assertion,https://github.com/emberjs/ember.js/issues/4275,"Bug, Good for New Contributors",x,x,,
+#14974,Ember.instrument misses compilation/lookup phase.,https://github.com/emberjs/ember.js/issues/14974,Good for New Contributors,x,x,x,
+,,,,,,,
+,,,,,,,
+Yarn(https://github.com/yarnpkg/yarn),,,,,,,
+id,title,link,Labels,closed,OB,EB,S2R
+#5733,Cannot force color output when stdout is not a tty,https://github.com/yarnpkg/yarn/issues/5733,"cat-feature, good first issue",x,x,x,x
+#5543,yarn does not respect npm globalconfig,https://github.com/yarnpkg/yarn/issues/5543,"cat-compatibility, good first issue, triaged",x,x,x,x
+#5292,Yarn installs package without version and creates breaking error,https://github.com/yarnpkg/yarn/issues/5292,"cat-bug, good first issue, help wanted, triaged",x,x,x,x
+#5077,"Couldn't find match for ""Identity""",https://github.com/yarnpkg/yarn/issues/5077,cat-bug good first issue help wanted triaged,x,x,x,x
+#4971,yarn add in workspace adds to dependencies when it should update devDependencies,https://github.com/yarnpkg/yarn/issues/4971,"cat-bug, fixed-in-v2, good first issue, triaged",x,x,x,x
+#4729,Can't install package over git+ssh with non-standard port when using plink on Windows,https://github.com/yarnpkg/yarn/issues/4729,"cat-bug, good first issue, os-windows, triaged",x,x,x,x
+#4718,strange latency with yarn install,https://github.com/yarnpkg/yarn/issues/4718,"cat-bug, fixed-in-v2, good first issue, help wanted, triaged",x,x,x,x
+#4441,Bug: yarn init should not traverse up to find a package.json,https://github.com/yarnpkg/yarn/issues/4441,"cat-bug, good first issue, help wanted, triaged",x,x,x,x
+#4076,Yarn local mirror creates invalid file name when Git repository is at server root,https://github.com/yarnpkg/yarn/issues/4076,"cat-bug, good first issue, help wanted",x,x,x,x
+#4840,yarn upgrade - no update and spurious warning about existing entry in package.json for devDependencies,https://github.com/yarnpkg/yarn/issues/4840,"cat-bug, good first issue, help wanted",x,x,x,
+#886,fails if bundledDependency is missing in .tgz file,https://github.com/yarnpkg/yarn/issues/886,"cat-bug, cat-compatibility, good first issue, help wanted, high-priority, triaged",x,x,,x
+#2466,yarn add with non-existent version saves wrong version to package.json,https://github.com/yarnpkg/yarn/issues/2466,"good first issue, help wanted, triaged",x,x,,
+#2671,Add compressing feature for offline git dependencies.,https://github.com/yarnpkg/yarn/issues/2671,"cat-feature, fixed-in-v2, good first issue, triaged",x,x,x,
+#2849,Ensure Yarn retries on 5xx errors,https://github.com/yarnpkg/yarn/issues/2849,"good first issue, help wanted, triaged",x,x,x,
+,,,,,,,
+TensorFlow(https://github.com/tensorflow/tensorflow),,,,,,,
+id,title,link,Labels,closed,OB,EB,S2R
+#38349,nan gradient when tf.where is used,https://github.com/tensorflow/tensorflow/issues/38349,"TF 2.1, TF 2.2, comp:ops, good first issue, stat:contributions welcome, type:bug",x,x,x,x
+#30802,Using tf.function while enumerating a dataset causes an infinite loop,https://github.com/tensorflow/tensorflow/issues/30802,"TF 2.0, comp:autograph, good first issue, stat:contributions welcome, type:bug",x,x,x,x
+#24815,"If a branch contains summaries, tf.cond doesn't support Operations as branches",https://github.com/tensorflow/tensorflow/issues/24815,"comp:ops, contrib, good first issue, stat:contributions welcome",x,x,x,x
+#48551,tf.strings.lower() does not lower-case non-ASCII characters,https://github.com/tensorflow/tensorflow/issues/48551,"TF 2.4, comp:ops, stat:contributions welcome, type:bug",x,x,x,x
+#48238,tf.meshgrid throws exception when input tensors have different dtypes,https://github.com/tensorflow/tensorflow/issues/48238,"TF 2.4, comp:ops, stat:contributions welcome, type:bug",x,x,x,x
+#37323,Count number of times tf.function is traced,https://github.com/tensorflow/tensorflow/issues/37323,"comp:core, good first issue, stat:contributions welcome, type:feature",x,x,,x
+#36146,tf.function and tf.nest break for valid Mapping instances,https://github.com/tensorflow/tensorflow/issues/36146,"TF 2.1, comp:core, good first issue, stat:contributions welcome, type:bug",x,x,,x
+#30895,[TF 2.0] autograph issue,https://github.com/tensorflow/tensorflow/issues/30895,"TF 2.0, comp:autograph, good first issue, stat:contributions welcome, type:bug",x,x,,x
+#26294,[TF 2.0] Conversion script fails to parse IPython functions.,https://github.com/tensorflow/tensorflow/issues/26294,"TF 2.0, comp:ops, good first issue, type:bug",x,x,,x
+#26143,[TF2.0] Error Logging for GradientTape,https://github.com/tensorflow/tensorflow/issues/26143,"TF 2.0, comp:ops, good first issue, stat:contributions welcome, type:bug",x,x,,x
+#20402,Feature request: non-stateful scatter_nd_min and scatter_nd_max,https://github.com/tensorflow/tensorflow/issues/20402,"good first issue, stat:contributions welcome, type:feature",x,x,,
+#26368,[TF 2.0] Add skip_empty argument to tf.strings.split so that tf.string_split can be deprecated.,https://github.com/tensorflow/tensorflow/issues/26368,"TF 2.0, good first issue",x,x,,
+,,,,,,,
+,,,,,,,
+React-native(https://github.com/facebook/react-native),,,,,,,
+id,title,link,Labels,closed,OB,EB,S2R
+#31372,Add flow types to AccessibilityAndroidExample.android.js,https://github.com/facebook/react-native/issues/31372,"Flow, Good first issue",x,x,x,x
+#31329,Add Flow Types to AccessibilityExample.js,https://github.com/facebook/react-native/issues/31329,"Flow, Good first issue",x,x,x,x
+#31322,SectionList -> SectionListModern: Refactor to functional component,https://github.com/facebook/react-native/issues/31322,"Component: SectionList, Good first issue",x,x,x,x
+#28065,React Native Picker component does not have an onTouch property,https://github.com/facebook/react-native/issues/28065,"Component: Picker, Good first issue",x,x,x,x
+#27253,selectTextOnFocus does not work with multiline text inputs iOS,https://github.com/facebook/react-native/issues/27253,"Bug, Component: TextInput, Good first issue, Platform: iOS, Ran Commands",x,x,x,x
+#26554,Linking.openUrl with a telephone number throws an error,https://github.com/facebook/react-native/issues/26554,"API: Linking, Bug, Good first issue",x,x,x,x
+#24875,👻 Flow Typing NativeModules,https://github.com/facebook/react-native/issues/24875,"Flow, Good first issue, Help Wanted Native Module, Resolution: Locked, Type: Discussion",x,x,x,x
+#22990,Creating Standalone JS File For Each Native Component,https://github.com/facebook/react-native/issues/22990,"Good first issue, Help Wanted, JavaScript, Resolution: Locked",x,x,x,x
+#31330,Convert SafeAreaView to ES Module,https://github.com/facebook/react-native/issues/31330,"Component: SafeAreaView, Good first issue",x,x,x,
+#21581,Convert components off of createReactClass,https://github.com/facebook/react-native/issues/21581,"Good first issue, Help Wanted, JavaScript, Resolution: Locked",x,x,,x
+#321,Use WKWebView instead of UIWebView,https://github.com/facebook/react-native/issues/321,"Component: WebView, Good first issue, Help Wanted, Platform: iOS, Resolution: Locked, Type: DiscussionType: Enhancement",x,x,x,
+#11083,Hope to add attribute （ keyboardType = numberSigned） to TextInput of android,https://github.com/facebook/react-native/issues/11083,"Bug, Component: TextInput, Good first issue, Help Wanted, Platform: Android, Ran Commands, Resolution: Locked, Type: Enhancement",x,x,,
+#10561,StatusBar.currentHeight returns undefined,https://github.com/facebook/react-native/issues/10561,"Good first issue, Help Wanted, Resolution: Locked",x,x,x,
+,,,,,,,
+PhpMyAdmin(https://github.com/phpmyadmin/phpmyadmin),,,,,,,
+id,title,link,Labels,closed,OB,EB,S2R
+#16659,Column Drop arrow is not responsive,https://github.com/phpmyadmin/phpmyadmin/issues/16659,"bug, good first issue, ui",x,x,x,x
+#16603,Settings on Javascript error notification opens after clicking twice,https://github.com/phpmyadmin/phpmyadmin/issues/16603,"bug, good first issue",x,x,x,x
+#16528,Table Row Heading Overrides Table field when the size of window is half in chrome browser,https://github.com/phpmyadmin/phpmyadmin/issues/16528,"bug, good first issue, has-pr, help wanted, ui",x,x,x,x
+#16463,"""REFERENCES"" priviledge is used by MySQL - wrong message",https://github.com/phpmyadmin/phpmyadmin/issues/16463,"bug, good first issue, help wanted, ui",x,x,x,x
+#16437,Header row covers first two rows of table in iOS 14.1 and iPadOS 14.1,https://github.com/phpmyadmin/phpmyadmin/issues/16437,"bug, good first issue, has-pr, help wanted",x,x,x,x
+#16404,password generation not working after failing to create new user,https://github.com/phpmyadmin/phpmyadmin/issues/16404,"bug, good first issue, has-pr, help wanted, question",x,x,x,x
+#16377,Uncaught ReferenceError: Stickyfill is not defined,https://github.com/phpmyadmin/phpmyadmin/issues/16377,"bug, good first issue, help wanted",x,x,x,x
+#16677,UX issues in the Classic Theme,https://github.com/phpmyadmin/phpmyadmin/issues/16677,"bug, good first issue, help wanted, ui",x,x,,x
+#16605,Vertical alignment seems off,https://github.com/phpmyadmin/phpmyadmin/issues/16605,"bug, good first issue, has-pr, newbie, ui",x,x,,
+#16278,Remove underscore prefix from property names,https://github.com/phpmyadmin/phpmyadmin/issues/16278,"good first issue, hacktoberfest, help wanted, newbie, refactoring",x,x,,x
+#6337,Metro - Navi tree icons,https://github.com/phpmyadmin/phpmyadmin/issues/6337,"enhancement, good first issue, hacktoberfest, newbie",x,x,,x
+#13326,No quotes when field type is int,https://github.com/phpmyadmin/phpmyadmin/issues/13326,"bug, good first issue, has-pr, ui",x,x,x,
